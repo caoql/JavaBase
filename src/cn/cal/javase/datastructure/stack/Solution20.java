@@ -7,7 +7,7 @@ package cn.cal.javase.datastructure.stack;
  * @author 曹启龙
  * @date 2019-03-26 17:23
  */
-public class Solution {
+public class Solution20 {
 	
 	public boolean isValid(String s) {
 		if (s == null || s.trim().length() == 0)
@@ -33,7 +33,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		System.out.println((new Solution()).isValid("()[]{}"));
-		System.out.println((new Solution()).isValid("([)]"));
+		System.out.println((new Solution20()).isValid("()[]{}"));
+		System.out.println((new Solution20()).isValid("([)]"));
 	}
 }
