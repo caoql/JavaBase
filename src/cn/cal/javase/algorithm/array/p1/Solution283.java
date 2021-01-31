@@ -1,4 +1,4 @@
-package cn.cal.javase.algorithm.array;
+package cn.cal.javase.algorithm.array.p1;
 
 import java.util.Arrays;
 
