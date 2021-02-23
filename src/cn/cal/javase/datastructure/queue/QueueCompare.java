@@ -20,6 +20,7 @@ public class QueueCompare {
         double time2 = testQueue(loopQueue, opCount);
         System.out.println("LoopQueue, time: " + time2 + " s");
 
+        // 慢的原因是插入最后 单链表是O(n), 另一个原因是有很多 new 操作
         LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
         double time3 = testQueue(linkedListQueue, opCount);
         System.out.println("LinkedListQueue, time: " + time3 + " s");
